@@ -1,1 +1,1 @@
-# RuJul777.github.io/exercises/hello-world/
+# RuJul777.github.io
