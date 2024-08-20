@@ -1,3 +1,29 @@
 #First-Paragraph {
-    color:chartreuse;
+    color: #9d02db;
+    background-color: aquamarine;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+#Second-Paragraph {
+    color: #090087;
+    background-color: rgb(223, 216, 11);
+    font-size: 24px;
+    font-style: oblique;
+    text-decoration: underline wavy 1px;
+    text-align: center;
+}
+#span1 {
+    color: crimson;
+    font-size: 20px;
+}
+#span2 {
+    font-style: italic;
+    text-decoration: underline;
+}
+#span3 {
+    background-color: yellow;
+}
+#Span-P1 {
+    text-align: center;
 }
