@@ -1,0 +1,29 @@
+#h2-fm {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#d1-cbp,
+#d3-fin,
+#d4-frl,
+#d5-tpg, 
+#d2-mel {
+    padding: 24px;
+    text-align: center;
+    color: white;
+}
+#d1-cbp {
+    background-color: #EF798A;
+}
+#d2-mel {
+    background-color: #F7A9A8;
+}
+#d3-fin {
+    background-color: #613F75;
+}
+#d4-frl {
+    background-color: #E5C3D1;
+}
+#d5-tpg {
+    background-color: #988B8E;
+}
