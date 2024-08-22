@@ -1,0 +1,42 @@
+.tetris-block-6 {
+    display: inline-block; padding: 21.6px; border-width: 5px; 
+    border-style: solid
+}
+.tetris-block {
+    display: inline-block; padding: 21.6px; border-width: 5px; 
+    border-style: outset;
+}
+.tetris-block-2 {
+    display: inline-block; padding: 21.6px; border-width: 5px; 
+    border-style: outset; width: 80px;
+}
+.tetris-block-3 {
+    display: inline-block; padding: 21.6px; border-width: 5px; 
+    border-style: outset;
+}
+.tetris-block-4 {
+    display: inline-block; padding: 21.6px; border-width: 5px; 
+    border-style: outset; width: 50px;
+}
+.tetris-block-5 {
+    display: inline-block; padding: 21.6px; border-width: 5px; 
+    border-style: outset; 
+}
+.periwinkle {
+    background-color: #9f9fff; border-color: #9f9fff;
+}
+.red {
+    background-color: red; border-color: red;
+}
+.blue {
+    background-color: blue; border-color: blue;
+}
+.green {
+    background-color: greenyellow; border-color: greenyellow;
+}
+.yellow {
+    background-color: yellow; border-color: yellow;
+}
+.black {
+    background-color: black; border-color: black;
+}
