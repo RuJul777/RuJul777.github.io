@@ -1,6 +1,7 @@
 .image-1 {
     width: 50px; margin-top: 150px; margin-left: 50px; 
     border: ridge 3px black; font-size: 10px; 
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: antiquewhite; box-shadow: inset 2px 2px 2px gold;
 }
