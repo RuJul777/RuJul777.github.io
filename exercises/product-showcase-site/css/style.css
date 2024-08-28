@@ -1,6 +1,9 @@
 body {
     margin: 0px;
 }
+div {
+    padding: 5px;
+}
 .container-1 {
     background-color: lavender;
 }
