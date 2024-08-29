@@ -14,6 +14,7 @@ body {
     border-right: 2px solid gray;
     background-color: #EFEFEF;
     list-style-type: none;
+    padding: 0px;
 }
 #sidebar h2 {
     border-bottom: 2px solid black;
@@ -27,4 +28,10 @@ body {
 }
 #span-1 {
     padding-bottom: 5px;
+}
+#main-content h1 {
+    border-bottom: 2px solid black;
+}
+#main-content h3 {
+    border-bottom: .5px solid gray;
 }
