@@ -8,3 +8,22 @@ body {
 #two-columns {
     display: flex;
 }
+#sidebar {
+    width: 250px;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    background-color: #EFEFEF;
+}
+#sidebar h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+#main-content {
+    order: 2;
+    padding: 24px;
+    flex: 1;
+    max-width: 950px;
+}
+#main-content p {
+    
+}
