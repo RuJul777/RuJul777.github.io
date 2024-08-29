@@ -13,8 +13,18 @@ body {
     border-bottom: 2px solid gray;
     border-right: 2px solid gray;
     background-color: #EFEFEF;
+    padding: 24px;
+}
+#contents-list {
     list-style-type: none;
     padding: 0px;
+}
+#contents-list ul li {
+    padding: 4px 0px;
+}
+#contents-list ul a {
+    text-decoration: none;
+    color: #111111;
 }
 #sidebar h2 {
     border-bottom: 2px solid black;
@@ -26,12 +36,12 @@ body {
     flex: 1;
     max-width: 950px;
 }
-#span-1 {
-    padding-bottom: 5px;
-}
 #main-content h1 {
     border-bottom: 2px solid black;
 }
 #main-content h3 {
     border-bottom: .5px solid gray;
+}
+#p1 {
+    font-style: italic; padding-left: 12px;
 }
