@@ -1,0 +1,42 @@
+.card-style-2 {
+    width: 350px;
+    background-color: white;
+    border-radius: 40px;
+    margin: 18px;
+}
+.card-style-2 img {
+    width: 214px;
+    border-radius: 50%;
+    margin: 68px;
+}
+.animagram-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logo {
+    margin-left: 30px;
+}
+.brand-name {
+    font-size: 30px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.card-style-2 h2 {
+    text-align: center;
+    margin-top: -40px;
+}
+.card-style-2 p {
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
