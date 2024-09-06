@@ -4,7 +4,7 @@
     margin: 16px;
     box-shadow: 2px 2px 10px;
 }
-.card-style-1 :hover {
+.card-style-1:hover {
     transform: translateY(5px);
 }
 .card-style-1 img {
