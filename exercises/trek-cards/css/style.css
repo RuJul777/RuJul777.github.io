@@ -5,7 +5,7 @@
     box-shadow: 2px 2px 10px;
 }
 .card-style-1:hover {
-    transform: translateY(5px);
+    transform: translateY(-5px);
 }
 .card-style-1 img {
     width: 100%;
