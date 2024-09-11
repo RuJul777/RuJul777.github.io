@@ -1,0 +1,76 @@
+.card-style-3 img {
+    width: 290px;
+    max-height: 200px;
+    margin-top: -20px;
+    border: #b49900 solid 5px;
+}
+.card-style-3 {
+    min-width: 350px;
+    max-width: 350px;
+    max-height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 17px solid gold;
+    border-radius: 15px;
+    margin: 20px;
+}
+.pokemon-header {
+    display: flex;
+    align-items: center;
+    width: 290px;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-bottom: -18px;
+    font-size: 18px;
+}
+.attack {
+    display: flex;
+    margin-top: -5px;
+    justify-content: space-between;
+    border-bottom: 2px black solid;
+    width: 285px;
+}
+.bold {
+    font-weight: bolder;
+    font-size: 17px;
+}
+.details {
+    font-size: 12px;
+    margin-top: -26px;
+    margin-bottom: -8px;
+    font-weight: bold;
+    font-style: italic;
+    background: linear-gradient(90deg, #b49900, yellow 40%, #b49900);
+    max-height: 13px;
+    min-width: 290px;
+    max-width: 290px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#pokemon-card-1 {
+    background: linear-gradient(130deg, #82ed82, green 45%, #82ed82 95%);
+}
+#pokemon-card-2 {
+    background: linear-gradient(130deg, #82ed82, green 45%, #82ed82 95%);
+}
+.data {
+    display: flex;
+    font-size: 12px;
+    font-weight: bolder;
+    border: solid gold 1.5px;
+    width: 275px;
+    max-height: 45px;
+    margin-bottom: -18px;
+    margin-top: 8px;
+}
+.energy {
+    margin-top: 24px;
+    margin-right: 5px;
+}
+.power {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 18px;
+}
