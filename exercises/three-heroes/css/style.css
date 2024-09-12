@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hero-1 {
+    background-image: url("../images/pexels-shkrabaanthony-5486827.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#hero-1 h1 {
+    font-size: 5vw;
+    padding-left: 29vw;
+    flex: 1;
+}
+#hero-1 a {
+    flex: 2;
+    font-size: 2.5vw;
+    padding-left: 80vw;
+    padding-top: 15vw;
+    background-color: pink;
+    
+}

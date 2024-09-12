@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+#background {
+    background-image: url("../images/pexels-anna-nekrashevich-8533749.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 350vh;
+    display: grid;
+}
+#navbar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: black solid 2px;
+}
