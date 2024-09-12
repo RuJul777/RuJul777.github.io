@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-position: center center;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 130vh;
     display: grid;
     justify-content: center;
 }
@@ -26,6 +26,7 @@ body {
     width: 75vw;
     background-color: black;
     min-height: 5vh;
+    margin-bottom: 30px;
 }
 #navbar a {
     text-decoration: none;
@@ -36,6 +37,7 @@ body {
 }
 #h2-gallery {
     text-align: center;
+    margin-bottom: 40px;
 }
 #gallery {
     display: grid;
@@ -44,6 +46,7 @@ body {
     padding: 5px;
     border: 1px solid gray;
     box-shadow: 5px 5px 5px;
+    padding-left: 30px;
 }
 #gallery img {
     width: 20vw;
@@ -56,7 +59,21 @@ body {
 }
 #h3-gallery {
     text-align: center;
+    padding-bottom: 40px;
 }
 #h3-gallery:hover {
     transform: scale(1.2);
+}
+#card-co {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+#co-img img {
+    height: 200px;
+    box-shadow: 0px 0px 20px;
+}
+#co-img img:hover {
+    transform: scale(2);
 }
