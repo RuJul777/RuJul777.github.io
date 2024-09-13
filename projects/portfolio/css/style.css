@@ -3,78 +3,127 @@
 }
 body {
     margin: 0px;
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Bebas Neue", sans-serif;
 }
-#background {
-    background-image: url("../images/pexels-anna-nekrashevich-8533749.jpg");
-    background-size: cover;
-    background-position: center center;
-    width: 100vw;
-    min-height: 130vh;
-    display: grid;
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:slateblue;
+    min-height: 20px;
+    height: 5%;
+}
+.navbar h1 {
+    color:midnightblue;
+}
+.navbar p {
+    background: linear-gradient(130deg, purple, white 20%, orange 40%, red 60%, blue 80%, purple);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    width: 15vw;
+}
+.center-column {
+    background: url("../images/aldebaran-s-uXchDIKs4qI-unsplash.jpg");
+    display: flex;
+    height: 70%;
+    min-height: 500px;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
-#screen {
-    display: grid;
-    width: 75vw;
-    max-height: 150vh;
+.center-column h2,
+p {
+    color: gold;
 }
-#navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 75vw;
-    background-color: black;
-    min-height: 5vh;
-    margin-bottom: 30px;
-}
-#navbar a {
-    text-decoration: none;
-    color: rgb(0, 198, 0);
-}
-#navbar a:hover {
-    transform: scale(1.2);
-}
-#h2-gallery {
-    text-align: center;
-    margin-bottom: 40px;
-}
-#gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 20vw;
-    padding: 5px;
-    border: 1px solid gray;
-    box-shadow: 5px 5px 5px;
-    padding-left: 30px;
-    padding-top: 50px;
-}
-#gallery img {
-    width: 20vw;
-    height: 20vh;
-    object-fit: cover;
-    box-shadow: 5px 5px 5px;
-}
-#gallery img:hover {
-    transform: scale(1.2)
-}
-#h3-gallery {
-    text-align: center;
-    padding-bottom: 40px;
-}
-#h3-gallery:hover {
-    transform: scale(1.2);
-}
-#card-co {
+.footer {
     display: flex;
     justify-content: space-evenly;
-    padding-right: 10px;
-    padding-bottom: 40px;
+    min-height: 80vh;
+    max-height: 90vh;
+    padding-top: 5vh;
+    background: url("../images/aldebaran-s-uXchDIKs4qI-unsplash.jpg")
 }
-#co-img img {
-    height: 200px;
-    box-shadow: 0px 0px 20px;
+.card {
+    width: 17%;
+    min-width: 125px;
+    min-height: 230px;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: transparent 5px solid;
+    box-shadow: 5px 7px 7px lavenderblush;
 }
-#co-img img:hover {
-    transform: scale(2);
+.card img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.card h3 {
+    text-align: center;
+    color: limegreen;
+}
+#card-3 img {
+    padding: 24px 0px;
+}
+#card-1 {
+    background-color: blue;
+}
+#card-2 {
+    background-color: blueviolet;
+}
+#card-3 {
+    background-color: blue;
+}
+.btn {
+    margin-top: 5vh;
+    text-decoration: none;
+    background-color: gold;
+    padding: 0px 15px;
+    border-radius: 15px;
+    border: transparent 5px solid;
+}
+.btn:hover {
+    transform: scale(1.11);
+    background-color: lightyellow;
+    border: gold 5px solid;
+}
+.divider p:hover{
+    transform: translateX(45%);
+    transition-duration: 5s;
+}
+.gallery-layout {
+    min-width: 100vw;
+    text-align: center;
+    display: grid;
+}
+.gallery-grid {
+   columns: 3 auto;
+   padding: 24px;
+   background: linear-gradient(180deg, cornflowerblue, purple 55%, blueviolet 85%);
+   gap: 24px;
+}
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 7px 7px lavenderblush;
+}
+.gallery-grid img:hover {
+    transform: scale(1.2);
+}
+.return {
+    background: url("../images/aldebaran-s-uXchDIKs4qI-unsplash.jpg");
+    color: gold;
+    text-decoration: none;
+    background-color: blue;
+}
+.return:hover {
+    transform: scale(1.25);
+}
+#return {
+    text-decoration: none;
+}
+#return:hover {
+    transform: scale(1.25);
 }
