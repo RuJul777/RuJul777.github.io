@@ -211,9 +211,6 @@ a {
 ****************************************************************************/
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: lightblue;
-    }
     #nav {
         flex-wrap: wrap;
         flex-direction: column;
