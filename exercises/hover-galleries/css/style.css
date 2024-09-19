@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 24px;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 5px;
+    margin: 24px;
+    padding: 12px;
+    border: 3px solid black;
+    border-radius: 12px;
+    max-width: fit-content;
+    min-width: 200px;
+}
+.card img {
+    height: 150px;
+}
+#card-s1:hover {
+    background-color: orange;
+    box-shadow: 4px 4px 4px crimson;
+    transform: translateY(-6px);
+}
+#card-s2:hover {
+    background-color: lightgreen;
+    box-shadow: 4px 4px 4px greenyellow;
+    transform: translateY(-6px);
+}
+#card-s3:hover {
+    background-color: pink;
+    box-shadow: 4px 4px 4px yellow;
+    transform: translateY(-6px);
+}
+#card-s4:hover {
+    background-color: grey;
+    box-shadow: 4px 4px 4px darkgreen;
+    transform: translateY(-6px);
+}
+#card-s1,
+#card-s2,
+#card-s3,
+#card-s4 {
+    transition: 
+        background-color 1s,
+        box-shadow 1s,
+        transform 1s ;
+}
+#card-b1 h1 {
+    color: crimson;
+}
+#card-b2 h1 {
+    color: blue;
+}
+#card-b3 h1 {
+    color: green;
+}
+#card-b4 h1 {
+    color: bisque;
+}
+.b :hover {
+    transform: translateY(-8px);
+}
+#card-v1 .card-content{
+    transition:
+    opacity .5s,
+    visibility .5s ;
+}
+#card-v1:hover .card-content{
+    opacity: 0;
+    visibility: hidden;
+}
+#card-v2 .card-content{
+    transition:
+    opacity .5s,
+    visibility .5s ;
+}
+#card-v2:hover .card-content{
+    opacity: 0;
+    visibility: hidden;
+}
+#card-v3 .card-content{
+    transition:
+    opacity .5s,
+    visibility .5s ;
+}
+#card-v3:hover .card-content{
+    opacity: 0;
+    visibility: hidden;
+}
+#card-v4 .card-content{
+    transition:
+    opacity .5s,
+    visibility .5s ;
+}
+#card-v4:hover .card-content{
+    opacity: 0;
+    visibility: hidden;
+}
