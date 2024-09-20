@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to top, #906411, #e86e6c);
+    background-color: crimson;
 }
 .bar a {
     display: inline-block;
@@ -23,6 +23,7 @@ body {
 }
 .bar a:hover {
     color: brown;
+    background-color: lightgoldenrodyellow;
 }
 .sgl {
     width: 99vw;
