@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Major Mono Display", monospace;
+    background-image: url("../images/set-cats-paw-cartoon-illustration-foot-domestic-animal.png");
+    background-size: cover;
+    background-position: center; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Major+Mono+Display&display=swap');
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to top, #906411, #e86e6c);
+}
+.bar a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 24px;
+    color: orange;
+}
+.bar a:hover {
+    color: brown;
+}
+.sgl {
+    width: 99vw;
+    height: 150vh;
+    margin: 4px auto;
+    text-align: center;
+}
+#ff {
+    color: crimson;
+    background-color: gold;
+}
+.drop-co:hover .fa-solid {
+    transform: rotate(90deg);
+}
+#hero {
+    background-image: url("../images/black-cat-street.jpg"); 
+    justify-content: center;
+}
+#hero a {
+    background-color: crimson;
+}
+#hero-2 {
+    background-image: url("../images/Screenshot\ 2024-09-18\ at\ 10.39.56\ PM.png");
+}
+#hero-3 {
+    background-image: url("../images/black-cat-street.jpg");
+}
+#hero-4 {
+    background-image: url("../images/Screenshot\ 2024-09-18\ at\ 10.40.28\ PM.png");
+}
+.hero {
+    height: 550px;
+    max-width: 810px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 6px 8px 6px #00000064;
+    background-size: cover;
+    background-position: center;
+    border: 10px double salmon;
+    margin-bottom: 24px;
+}
+.drop-co {
+    position: relative;
+}
+.drop-me {
+    position: absolute;
+    opacity: 0;
+    transform: translateY(24.5px);
+    visibility: hidden;
+    transition: 
+        opacity 1.5s .2s,
+        visibility 1.5s .2s;
+}
+.drop-me a {
+    background-color: gold;
+    width: 100%;
+    min-width: 150px;
+}
+#bar .drop-me a:hover {
+    background: crimson;
+    color: yellow;
+}
+.drop-co:hover .drop-me {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(24.5px);
+    transition: 
+        opacity 1s .2s,
+        visibility 1s .2s;
+}
+#hero a {
+    text-decoration: none;
+    color: gold;
+    align-content: center;
+}
+#hero:hover a {
+    background-color: transparent;
+}
+.card-co {
+    display: flex;
+    justify-content: center;
+}
+.cd {
+    width: 600px;
+    min-height: 50vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: #906411 solid 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #00000064;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+.btn-1 {
+    border: #906411 double 3px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-1 a {
+    text-decoration: none;
+    color: black;
+}
+.btn-1:hover {
+    box-shadow: inset 2px 3px 6px crimson;
+}
+@media screen and (max-width: 560px) {
+    .bar {
+        flex-direction: column;
+    }
+    .btn-1 {
+        font-size: 12px;
+    }
+    .cd {
+        font-size: 14px;
+        padding: 30px;
+        gap: 12px;
+    }
+    #hero-2,
+    #hero-3,
+    #hero-4,
+    #hero {
+        background-size: 100%;
+    }
+    .hero {
+        height: 280px ;
+    }
+}
