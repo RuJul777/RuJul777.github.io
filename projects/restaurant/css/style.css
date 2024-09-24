@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Pacifico", cursive;
+}
+p {
+    font-family: "Amatic SC", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.cc {
+    display: flex;
+    justify-content: center;
+}
+.navtop {
+    border: double #aa2e2e 10px;
+}
+.navbtm {
+    background: linear-gradient(90deg, goldenrod, gold 5%, goldenrod 10%, gold 15%, goldenrod 20%, gold 25%, goldenrod 30%, gold 35%, goldenrod 40%, gold 45%, goldenrod 50%, gold 55%, goldenrod 60%, gold 65%, goldenrod 70%, gold 75%, goldenrod 80%, gold 85%, goldenrod 90%, gold 95%, goldenrod 100%);
+}
+.cc a {
+    text-decoration: none;
+    color: #4553A3;
+    border-radius: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navtop a:hover {
+    transform: scale(1.25);
+    color: #aa2e2e;
+}
+.navbtm a:hover {
+    background-color: #aa2e2e;
+    color: gold;
+    box-shadow: 2px 2px 6px #aa2e2e;
+    border: 5px double gold;
+}
+.navbtm a {
+    border: 5px transparent solid;
+}
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    background: url("../images/high-angle-arepas-wooden-tray.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#hero a {
+    text-decoration: none;
+    color: gold;
+    font-size: 30px;
+}
+#hero:hover {
+    border: gold double 5px;
+}
+#hero a:hover {
+    transform: scale(1.2);
+    color: #aa2e2e;
+}
+#hero2 {
+    display: flex;
+    height: 35vh;
+    background: url("../images/e1a2dfb7-8dd1-4218-8a34-acfee78bed85.jpg.avif");
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+}
+#hero2 h3 {
+    color: white;
+    font-size: 35px;
+}
+.cardlayout a {
+    text-decoration: none;
+}
+.cardlayout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: url("../images/top-view-brazilian-food-with-copy-space.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 24px;
+}
+.card {
+    text-align: center;
+    padding: 30px;
+    background-color: bisque;
+    box-shadow: inset 0px 0px 10px goldenrod;
+    width: 300px;
+    border: 10px double #aa2e2e;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+.content {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.content a {
+    background-color: gold;
+    padding: 14px;
+    border: 5px goldenrod double;
+    border-radius: 10%;
+    color: goldenrod;
+}
+.content a:hover {
+    background-color: #aa2e2e;
+}
+.divider {
+    background-color: #aa2e2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.divider h2 {
+    color: gold;
+    margin: 0px;
+}
+.footer {
+    background-color: #4553A3;
+    text-align: center;
+}
+.footer p {
+    margin: 0px;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-list a {
+    text-decoration: none;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+#times {
+    background-color: gold;
+    margin: 0px;
+    text-align: center;
+    font-style: italic;
+    height: 20px;
+}
+.content h2 {
+    border-bottom: 1px solid black;
+}
+.content p {
+    height: 80px;
+}
