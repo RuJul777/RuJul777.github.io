@@ -83,6 +83,12 @@ p {
 .blue {
     color: #f8bb21;
 }
+.titl {
+    color: indigo;
+    width: 100vw;
+    text-align: center;
+    text-decoration: underline 5px gold;
+}
 #bttm {
     display: flex;
     flex-direction: column;
