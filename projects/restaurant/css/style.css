@@ -31,11 +31,18 @@ p {
     transform: scale(1.25);
     color: #aa2e2e;
 }
+.navtop a:active {
+    color: gold;
+}
 .navbtm a:hover {
     background-color: #aa2e2e;
     color: gold;
     box-shadow: 2px 2px 6px #aa2e2e;
     border: 5px double gold;
+}
+.navbtm a:active {
+    background-color: #4553A3;
+    box-shadow: 4px 4px 4px inset #00000033;
 }
 .navbtm a {
     border: 5px transparent solid;
@@ -61,6 +68,9 @@ p {
     transform: scale(1.2);
     color: #aa2e2e;
 }
+#hero a:active {
+    color: #4553A3;
+}
 #hero2 {
     display: flex;
     height: 35vh;
@@ -73,6 +83,28 @@ p {
 #hero2 h3 {
     color: white;
     font-size: 35px;
+}
+#hero3 {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    background: url("../images/vibrant-abstract-painting-inspired-by-600nw-2441172959.jpg.webp");
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+}
+#hero3 h2,
+#hero3 h1 {
+    color: white;
+    margin: 0px;
+}
+#hero3 h1 {
+    margin-top: 20px;
+}
+#hero3 {
+    border-top: 10px double gold;
+    border-bottom: 10px double gold;
 }
 .cardlayout a {
     text-decoration: none;
@@ -93,7 +125,6 @@ p {
     box-shadow: inset 0px 0px 10px goldenrod;
     width: 300px;
     border: 10px double #aa2e2e;
-    border-radius: 5%;
     margin-top: 40px;
 }
 .content {
@@ -107,11 +138,14 @@ p {
     background-color: gold;
     padding: 14px;
     border: 5px goldenrod double;
-    border-radius: 10%;
     color: goldenrod;
 }
 .content a:hover {
     background-color: #aa2e2e;
+}
+.content a:active {
+    background-color: green;
+    box-shadow: 4px 4px 4px inset #00000033;
 }
 .divider {
     background-color: #aa2e2e;
@@ -154,4 +188,116 @@ p {
 }
 .content p {
     height: 80px;
+}
+.item-co {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: url("../images/top-view-brazilian-food-with-copy-space.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.itemcc {
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+}
+.mhd {
+    background-color: #aa2e2e;
+    color: gold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: gold double 7px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    width: 260px;
+    padding: 24px;
+    margin: 24px;
+    border: 5px double #aa2e2e;
+}
+.text img {
+    width: 100%;
+    height: 190px;
+    margin: auto;
+    border-radius: 50%;
+    border: double 5px #4553A3;
+}
+.text h2 {
+    border-bottom: 2px black solid;
+}
+.text a {
+    text-decoration: none;
+    color: #aa2e2e;
+    display: inline-block;
+    background-color: gold;
+    border: 5px double #4553A3;
+}
+.text a:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 4px #00000033;
+    background-color: #4553A3;
+    color: gold;
+    border: 5px double gold;
+}
+.text a:active {
+    box-shadow: 4px 4px 4px inset #00000033;
+    background-color: green;
+}
+.text p {
+    font-style: italic;
+}
+#item1,
+#item5,
+#item10,
+#item14 {
+    margin: auto;
+}
+.bttn {
+    display: flex;
+}
+.bttn a {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    border: 5px double goldenrod;
+    text-decoration: none;
+    background-color: bisque;
+}
+.bttn h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.bttn a:hover {
+    background-color: gold;
+    border: #aa2e2e 5px double;
+}
+.bttn a:active {
+    background-color: green;
+    color: gold;
+}
+@media screen and (max-width: 646px) {
+    #hero a {
+        font-size: 24px;
+    }
+    #hero2 h3 {
+        font-size: 20px;
+    }
+    #hero3 h1 {
+        font-size: 18px;
+    }
+    #hero3 h2 {
+        font-size: 14px;
+    }
+    .cc a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 924px) {
+    .itemcc {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
 }
