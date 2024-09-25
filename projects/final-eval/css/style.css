@@ -7,6 +7,7 @@ body {
     background: url("../images/a-close-up-of-a-football-field-with-fans-in-the-stands-background-with-empty-space-for-text-free-photo.jpg");
     background-size: cover;
     background-position: center center;
+    color: white
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 #scl {
@@ -26,6 +27,26 @@ body {
 #matchup img {
     width: 200px;
     height: 300px;
+}
+#left img {
+    border: double 10px orange;
+}
+#left h2 {
+    color: orange;
+    text-decoration: underline;
+}
+#left h3 {
+    color: darkblue;
+}
+#right img {
+    border: double 10px turquoise;
+}
+#right h2 {
+    color: darkcyan;
+    text-decoration: underline;
+}
+#right h3 {
+    color: rgb(255, 166, 0);
 }
 #left,
 #right {
