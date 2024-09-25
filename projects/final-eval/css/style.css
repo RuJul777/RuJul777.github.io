@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    background: url("../images/a-close-up-of-a-football-field-with-fans-in-the-stands-background-with-empty-space-for-text-free-photo.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#scl {
+    width: 100vw;
+    margin: auto;
+}
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#matchup {
+    display: flex;
+    justify-content: space-around;
+}
+#matchup img {
+    width: 200px;
+    height: 300px;
+}
+#left,
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bttm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#bttns {
+    display: flex;
+}
+#bttns a {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    margin: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 40px;
+    color: white;
+    border: 4px double gold;
+    font-size: 14px;
+}
+#bttns a:hover {
+    background-color: blue;
+}
+@media screen and (max-width: 480px) {
+    #matchup {
+        flex-direction: column;
+        align-items: center;
+    }
+}
