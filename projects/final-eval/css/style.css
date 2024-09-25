@@ -7,7 +7,20 @@ body {
     background: url("../images/a-close-up-of-a-football-field-with-fans-in-the-stands-background-with-empty-space-for-text-free-photo.jpg");
     background-size: cover;
     background-position: center center;
-    color: white
+    color: white;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 26px;
+    padding: 10px;
+}
+h3 {
+    font-size: 22px
+}
+p {
+    font-size: 20px
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 #scl {
@@ -21,10 +34,10 @@ body {
     align-items: center;
 }
 #top h1 {
-    background:linear-gradient(to right, rgba(255, 0, 0, 0.718), rgba(255, 255, 255, 0.617), rgba(0, 0, 255, 0.57));
+    background:linear-gradient(to right, #ff00007a, #ffffff75, #0000ff83);
     width: 100vw;
     text-align: center;
-    color:rgb(248, 187, 33);
+    color:#f8bb21;
 }
 #matchup {
     display: flex;
@@ -66,6 +79,10 @@ body {
     align-items: center;
     text-align: center;
 }
+#bttm h1 {
+    background: linear-gradient(to right, #0000ff83, #ffffff75, #ff00007a);
+    width: 100vw;
+}
 #bttns {
     display: flex;
 }
@@ -73,8 +90,8 @@ body {
     text-decoration: none;
     background-color: cornflowerblue;
     margin: 24px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
     padding-top: 6px;
     padding-bottom: 6px;
     border-radius: 40px;
@@ -85,9 +102,17 @@ body {
 #bttns a:hover {
     background-color: blue;
 }
+#bttns a:active {
+    background-color: #f8bb21;
+}
 @media screen and (max-width: 480px) {
     #matchup {
         flex-direction: column;
         align-items: center;
+    }
+    #bttns a {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
     }
 }
