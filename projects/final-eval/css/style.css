@@ -88,7 +88,7 @@ p {
     color: rgb(108, 0, 185);
     width: 100vw;
     text-align: center;
-    text-decoration: underline 5px gold;
+    background: linear-gradient(90deg, #ffd90031, gold, #ffd90031);
 }
 #bttm {
     display: flex;
@@ -157,5 +157,10 @@ p {
 @media screen and (max-width: 477px) {
     .blue {
         font-size: 16px;
+    }
+}
+@media screen and (max-width: 532px) {
+    #bttm h1 {
+        font-size: 30px;
     }
 }
