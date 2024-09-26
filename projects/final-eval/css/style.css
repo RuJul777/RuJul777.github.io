@@ -82,9 +82,10 @@ p {
 }
 .blue {
     color: #f8bb21;
+    background: linear-gradient(90deg, #ffffff10, white, #ffffff10);
 }
 .titl {
-    color: indigo;
+    color: rgb(108, 0, 185);
     width: 100vw;
     text-align: center;
     text-decoration: underline 5px gold;
@@ -146,5 +147,15 @@ p {
     }
     h3 {
         font-size: 20px
+    }
+}
+@media screen and (max-width: 525px) {
+    .blue {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 477px) {
+    .blue {
+        font-size: 16px;
     }
 }
