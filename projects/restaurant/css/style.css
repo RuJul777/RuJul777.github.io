@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -8,11 +10,13 @@ body {
 p {
     font-family: "Amatic SC", sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .cc {
     display: flex;
     justify-content: center;
+}
+.footer-content {
+    padding: 30px;
+    border: gold double 10px;
 }
 .navtop {
     border: double #aa2e2e 10px;
@@ -39,6 +43,40 @@ p {
     color: gold;
     box-shadow: 2px 2px 6px #aa2e2e;
     border: 5px double gold;
+}
+#item1,
+#item14,
+#item10,
+#item5 {
+    width: 100vw;
+    background-color: gold;
+}
+#item1 a,
+#item14 a,
+#item10 a,
+#item5 a {
+    background-color: #aa2e2e;
+    color: goldenrod;
+}
+#item1 a:active,
+#item14 a:active,
+#item10 a:active,
+#item5 a:active {
+    background-color: green;
+}
+#item1 img,
+#item14 img,
+#item10 img,
+#item5 img {
+    width: 80vw;
+    height: fit-content;
+    border-radius: 0px;
+}
+#item1 h3,
+#item5 h3,
+#item10 h3,
+#item14 h3 {
+    border-top: 2px solid black;
 }
 .navbtm a:active {
     background-color: #4553A3;
