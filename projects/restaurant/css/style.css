@@ -153,6 +153,13 @@ p {
 .cardlayout a {
     text-decoration: none;
 }
+.text #ro,
+.text #ro2,
+.text #ro3,
+.text #ro4 {
+    font-style: italic;
+    font-size: 30px;
+}
 .cardlayout {
     display: flex;
     flex-wrap: wrap;
