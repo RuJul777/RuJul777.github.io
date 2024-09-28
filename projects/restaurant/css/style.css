@@ -234,7 +234,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: url("../images/Easy-Colombian-Recipes-Feature.jpg");
+    background: url("../images/top-view-brazilian-food-with-copy-space.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -277,7 +277,6 @@ p {
     border: 5px double #4553A3;
 }
 .text a:hover {
-    transform: scale(1.1);
     box-shadow: 4px 4px 4px #00000033;
     background-color: #4553A3;
     color: gold;
