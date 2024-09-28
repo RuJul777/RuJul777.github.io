@@ -234,7 +234,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: url("../images/top-view-brazilian-food-with-copy-space.jpg");
+    background: url("../images/Easy-Colombian-Recipes-Feature.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -340,5 +340,14 @@ p {
     .itemcc {
         flex-wrap: nowrap;
         flex-direction: column;
+    }
+    #hero3 h1 {
+        font-size: 16px;
+    }
+    #hero3 h2 {
+        font-size: 14px;
+    }
+    #hero2 h3 {
+        font-size: 20px;
     }
 }
